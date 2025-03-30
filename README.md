@@ -1,4 +1,4 @@
-# 📱 Phone Number Info & Location Tracker using Python
+#  Phone Number Info & Location Tracker using Python
 
 A simple Python project that takes a phone number and returns details like **carrier**, **region/state**, **timezone**, and its **approximate location on a map** using APIs and geolocation libraries.
 
@@ -30,8 +30,6 @@ After running the script:
 ### 🔍 Preview
 
 ![Output Screenshot](https://github.com/user-attachments/assets/025612ed-e521-4ce7-8f8e-563d52fe77cb)
-
-> Replace the above image link with your actual GitHub image URL or upload a file named `output.png`.
 
 ---
 
