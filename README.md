@@ -1,6 +1,4 @@
-
-```markdown
-# Phone Number Info & Location Tracker using Python
+# 📱 Phone Number Info & Location Tracker using Python
 
 A simple Python project that takes a phone number and returns details like **carrier**, **region/state**, **timezone**, and its **approximate location on a map** using APIs and geolocation libraries.
 
@@ -27,15 +25,15 @@ After running the script:
   mylocation.html
   ```
 
-  Open it in your browser to see the location.
+  Open it in your browser to view the location.
 
 ### 🔍 Preview
 
-![image](https://github.com/user-attachments/assets/025612ed-e521-4ce7-8f8e-563d52fe77cb)
+![Output Screenshot](https://github.com/user-attachments/assets/025612ed-e521-4ce7-8f8e-563d52fe77cb)
 
+> Replace the above image link with your actual GitHub image URL or upload a file named `output.png`.
 
 ---
-
 
 ## 🧠 How It Works
 
@@ -76,6 +74,7 @@ A map will also open (or be saved as `mylocation.html`).
 1. Go to [https://opencagedata.com](https://opencagedata.com)
 2. Sign up and get a **free API key**
 3. Replace the `key` in `main.py`:
+
    ```python
    key = 'YOUR_API_KEY'
    ```
@@ -98,20 +97,13 @@ pip install phonenumbers folium opencage
 
 ---
 
-## 💡 Note
-
-- Accuracy is **approximate** — based on the phone number's registration, not real-time GPS.
-- Works best with valid international-format numbers (e.g., `+91...` for India).
-
----
-
 ## 🚀 Running the Project
 
 ```bash
 python main.py
 ```
 
-Output will be shown in terminal, and map opens in your browser or saves as `mylocation.html`.
+Output will appear in the terminal, and the map will be saved as `mylocation.html`.
 
 ---
 
@@ -120,3 +112,4 @@ Output will be shown in terminal, and map opens in your browser or saves as `myl
 Pull requests are welcome! Feel free to fork this repo and enhance the functionality.
 
 ---
+
